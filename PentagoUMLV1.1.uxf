@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>407</x>
+      <y>385</y>
+      <w>286</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>Spieler
+--
+- name: String
+- ki: boolean
+--
++ Spieler(unserSpielfeld spielfeld)
++ setzeKugel():void
++ dreheLinks():void
++ dreheRechts():void
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>88</y>
+      <w>143</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>429</x>
+      <y>99</y>
+      <w>187</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Spielbrett
+--
+- spielfeld: int[][]
+--
++ spielbrett()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>99</y>
+      <w>319</w>
+      <h>286</h>
+    </coordinates>
+    <panel_attributes>Spiel
+--
+
+- spieler1 : Spieler
+- spieler2 : Spieler
+- spielfeld : spielbrett
+//gewonen : boolean
+- zug: int
+
+--
+
++ spielen():void
++ gewonnen():boolean
++ vertikal():boolean
++ horizontal():boolean
++ schrägLinksOben():boolean
++ schrägRechtsOben():boolean
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>374</y>
+      <w>121</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+</diagram>
