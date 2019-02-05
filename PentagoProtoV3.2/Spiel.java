@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.*;
 public class Spiel
 {
 Spielbrett Spielfeld = new Spielbrett();
@@ -59,7 +58,7 @@ public boolean horizontal(int Spieler,int i,int j) {
     if (j>3) {
     j = j - 3;
     }
-    if (Spielfeld.getSpielfeld()[i][j]==Spieler && Spielfeld.getSpielfeld()[i][j+1]==Spieler && Spielfeld.getSpielfeld()[i][j+2]==Spieler) {
+    if (Spielfeld.getSpielfeld()[i][j]==Spieler && Spielfeld.getSpielfeld()[i][j+1]==Spieler && Spielfeld.getSpielfeld()[i][j+2]==Spieler && Spielfeld.getSpielfeld()[i][j+3]==Spieler && Spielfeld.getSpielfeld()[i][j+4]==Spieler) {
         return true;
     }
     else return false;
@@ -69,7 +68,7 @@ public boolean vertikal(int Spieler,int i, int j) {
         if (i>3) {
     i = i - 3;
     }
-    if (Spielfeld.getSpielfeld()[i][j]==Spieler && Spielfeld.getSpielfeld()[i+1][j]==Spieler && Spielfeld.getSpielfeld()[i+2][j]==Spieler) {
+    if (Spielfeld.getSpielfeld()[i][j]==Spieler && Spielfeld.getSpielfeld()[i+1][j]==Spieler && Spielfeld.getSpielfeld()[i+2][j]==Spieler && Spielfeld.getSpielfeld()[i+3][j]==Spieler && Spielfeld.getSpielfeld()[i+4][j]==Spieler) {
         return true;
     }
     else return false;
@@ -79,7 +78,7 @@ public boolean schrägLinksOben(int Spieler, int i, int j) {
     if (j<3 || i>3) {
         return false;
     }
-    if (Spielfeld.getSpielfeld()[i][j]==Spieler && Spielfeld.getSpielfeld()[i+1][j-1]==Spieler && Spielfeld.getSpielfeld()[i+2][j-2]==Spieler) {
+    if (Spielfeld.getSpielfeld()[i][j]==Spieler && Spielfeld.getSpielfeld()[i+1][j-1]==Spieler && Spielfeld.getSpielfeld()[i+2][j-2]==Spieler && Spielfeld.getSpielfeld()[i+3][j-2]==Spieler && Spielfeld.getSpielfeld()[i+4][j-3]==Spieler) {
         return true;
     }
     else return false;
@@ -89,7 +88,7 @@ public boolean schrägRechtsOben(int Spieler, int i, int j) {
     if (j>3 || i>3) {
         return false;
     }
-    if (Spielfeld.getSpielfeld()[i][j]==Spieler && Spielfeld.getSpielfeld()[i+1][j+1]==Spieler && Spielfeld.getSpielfeld()[i+2][j+2]==Spieler) {
+    if (Spielfeld.getSpielfeld()[i][j]==Spieler && Spielfeld.getSpielfeld()[i+1][j+1]==Spieler && Spielfeld.getSpielfeld()[i+2][j+2]==Spieler && Spielfeld.getSpielfeld()[i+3][j+3]==Spieler && Spielfeld.getSpielfeld()[i+4][j+4]==Spieler) {
         return true;
     }
     else return false;
