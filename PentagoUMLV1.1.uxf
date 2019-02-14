@@ -4,20 +4,21 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>407</x>
-      <y>385</y>
+      <x>550</x>
+      <y>352</y>
       <w>286</w>
-      <h>165</h>
+      <h>187</h>
     </coordinates>
     <panel_attributes>Spieler
 --
 - name: String
-- ki: boolean
+- sp: Spielbrett 
 --
-+ Spieler(unserSpielfeld spielfeld)
-+ setzeKugel():void
-+ dreheLinks():void
-+ dreheRechts():void
++ Spieler(spielfeld: Spielbrett)
++ spielerName(): void
++ getName() : String
++ setzeStein(SpielerNr: int): void
++ drehen (SPielerNr: int): void
 
 
 
@@ -27,67 +28,65 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>88</y>
-      <w>143</w>
+      <x>363</x>
+      <y>99</y>
+      <w>275</w>
       <h>33</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;230.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>429</x>
-      <y>99</y>
+      <x>616</x>
+      <y>110</y>
       <w>187</w>
-      <h>77</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Spielbrett
 --
 - spielfeld: int[][]
 --
 + spielbrett()
-</panel_attributes>
++ getSpielfeld(): int[][]
++ ausgabeSpielfeld(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>99</y>
-      <w>319</w>
-      <h>286</h>
+      <x>55</x>
+      <y>110</y>
+      <w>385</w>
+      <h>242</h>
     </coordinates>
     <panel_attributes>Spiel
 --
-
-- spieler1 : Spieler
-- spieler2 : Spieler
-- spielfeld : spielbrett
-//gewonen : boolean
+- Spieler1 : Spieler
+- Spieler2 : Spieler
+- spielfeld : Spielbrett
+- eingabe: int
 - zug: int
-
 --
-
-+ spielen():void
-+ gewonnen():boolean
-+ vertikal():boolean
-+ horizontal():boolean
-+ schrägLinksOben():boolean
-+ schrägRechtsOben():boolean
++ spielen(Spieler int): void
++ gewonnen(): boolean
++ vertikal(Spieler: int, i: int, j: int): boolean
++ horizontal(Spieler: int, i: int, j: int): boolean
++ schrägLinksOben(Spieler: int, i: int, j: int): boolean
++ schrägRechtsOben(Spieler: int, i: int, j: int): boolean
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>374</y>
-      <w>121</w>
+      <x>429</x>
+      <y>341</y>
+      <w>143</w>
       <h>33</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
   </element>
 </diagram>
