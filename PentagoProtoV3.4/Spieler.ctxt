@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Spieler
+comment1.params=spielfeld
+comment1.target=Spieler(Spielbrett)
+comment2.params=
+comment2.target=void\ spielerName()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=SpielerNr
+comment4.target=void\ setzeStein(int)
+comment5.params=SpielerNr
+comment5.target=void\ drehen(int)
+numComments=6
