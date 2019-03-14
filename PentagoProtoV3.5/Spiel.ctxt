@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Spiel
+comment1.params=
+comment1.target=void\ spielen()
+comment1.text=\r\n\ In\ der\ Methode\ spielen\ machen\ beide\ Spieler\ solange\ abwechselnd\ einen\ Zug,\ also\ setzen\ einen\ Spielstein\ und\ drehen\ ein\ Panel,\r\n\ bis\ einer\ von\ beiden\ gewonnen\ hat.\r\n
+comment2.params=Spieler
+comment2.target=boolean\ gewonnen(int)
+comment2.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ gewonnen\ hat.\r\n
+comment3.params=Spieler\ i\ j
+comment3.target=boolean\ horizontal(int,\ int,\ int)
+comment3.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ eine\ Reihe\ mit\ Kugeln\ in\ der\ Horizontalen\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment4.params=Spieler\ i\ j
+comment4.target=boolean\ vertikal(int,\ int,\ int)
+comment4.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ eine\ Reihe\ mit\ Kugeln\ in\ der\ Vertikalen\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment5.params=Spieler\ i\ j
+comment5.target=boolean\ schr\u00E4gLinksOben(int,\ int,\ int)
+comment5.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ eine\ Reihe\ mit\ Kugeln\ von\ oben\ links\ nach\ unten\ rechts\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment6.params=Spieler\ i\ j
+comment6.target=boolean\ schr\u00E4gRechtsOben(int,\ int,\ int)
+comment6.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ eine\ Reihe\ mit\ Kugeln\ von\ oben\ rechts\ nach\ unten\ links\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+numComments=7
