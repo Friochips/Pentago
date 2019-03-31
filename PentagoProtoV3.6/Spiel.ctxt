@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Spiel
+comment1.params=
+comment1.target=boolean\ gewonnen()
+comment1.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ spieler\ gewonnen\ hat.\r\n
+comment2.params=y
+comment2.target=void\ gewinnerZuweisung(int)
+comment3.params=a
+comment3.target=boolean\ reihePruefung(int[])
+comment4.params=i\ j
+comment4.target=boolean\ horizontal(int,\ int)
+comment4.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ spieler\ eine\ Reihe\ mit\ Kugeln\ in\ der\ Horizontalen\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment5.params=i\ j
+comment5.target=boolean\ vertikal(int,\ int)
+comment5.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ spieler\ eine\ Reihe\ mit\ Kugeln\ in\ der\ Vertikalen\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment6.params=i\ j
+comment6.target=boolean\ schr\u00E4gLinksOben(int,\ int)
+comment6.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ spieler\ eine\ Reihe\ mit\ Kugeln\ von\ oben\ links\ nach\ unten\ rechts\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment7.params=i\ j
+comment7.target=boolean\ schr\u00E4gRechtsOben(int,\ int)
+comment7.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ spieler\ eine\ Reihe\ mit\ Kugeln\ von\ oben\ rechts\ nach\ unten\ links\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+numComments=8

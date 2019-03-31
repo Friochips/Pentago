@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Spieler
+comment1.params=spielfeld
+comment1.target=Spieler(Spielbrett)
+comment1.text=\r\n\ Zwischen\ dem\ Spieler\ und\ dem\ Spielfeld\ wird\ eine\ kennt-Beziehung\ realisiert.\r\n
+comment2.params=spielernummer
+comment2.target=void\ setSpielerNr(int)
+comment3.params=
+comment3.target=int\ getSpielerNr()
+comment4.params=spielername
+comment4.target=void\ setSpielerName(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getSpielerName()
+comment5.text=\r\n\ Der\ Name\ des\ Spielers\ wird\ zur\u00FCckgegeben.\r\n
+comment6.params=
+comment6.target=void\ fuck2()
+comment6.text=\r\n\ \ /**\r\n\ Der\ Spieler\ kann\ mit\ Hilfe\ eines\ Scanners\ eine\ Kugel\ setzen.\r\n\ \ \ \r\n\ \ public\ void\ setzeStein(int\ SpielerNr)\ {\ \ \ \ \ \r\n\ \ \ \ \ int\ i\=0;\r\n\ \ \ \ \ int\ eingabe;\r\n\ \ \ \ \ int\ eingabe2;\r\n\ \ \ \ \ System.out.println(name\ +"\:\ In\ welche\ Zeile\ m\u00F6chstest\ du\ deine\ Kugel\ setzen?");\r\n\ \ \ \ \ Scanner\ eingabewert\ \=\ new\ Scanner(System.in);\r\n\ \ \ \ \ eingabe\ \=\ eingabewert.nextInt();\r\n\ \ \ \ \ System.out.println(name\ +"\:\ In\ welche\ Spalte\ m\u00F6chstest\ du\ deine\ Kugel\ setzen?");\r\n\ \ \ \ \ Scanner\ eingabewert2\ \=\ new\ Scanner(System.in);\r\n\ \ \ \ \ eingabe2\ \=\ eingabewert2.nextInt();\ \ \ \r\n\ \ \ \ \r\n\ \ \ \ while\ (i<6)\ {\ \ \ \ \r\n\ \ \ \ \ \ \ \ \ if\ (sp.getSpielfeld()[eingabe][eingabe2]\ \=\=\ 0)\ {\r\n\ \ \ \ \ \ \ \ \ sp.getSpielfeld()[eingabe][eingabe2]\ \=\ SpielerNr;\r\n\ \ \ \ \ \ \ \ \ i\=6;\r\n\ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ else\ {\r\n\ \ \ \ \ \ \ \ \ i++;\r\n\ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ }\r\n\ \ }\r\n
+comment7.params=zeile\ spalte
+comment7.target=void\ setzeStein(int,\ int)
+comment8.params=
+comment8.target=void\ fuck()
+comment8.text=\r\n\ \ /**\r\n\ Der\ Spieler\ kann\ mit\ Hilfe\ eines\ Scanners\ ein\ Panel\ drehen.\r\n\r\n\ \ \ public\ void\ drehen(int\ SpielerNr)\ {\ \ \ \ \r\n\r\n\ \ \ \ int\ i\ \=\ 0;\ \r\n\ \ \ \ int\ j\ \=\ 0;\r\n\ \ \ \ int[][]\ x\ \=\ new\ int[6][6];\r\n\ \ \ \ for(int\ a\=0;\ a<6;\ a++){\r\n\ \ \ \ \ \ \ \ for(int\ b\=0;\ b<6;\ b++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[a][b]\ \=\ sp.getSpielfeld()[a][b];\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\ \ \ \ int\ eingabe;\r\n\ \ \ \ int\ eingabe2;\r\n\ \ \ \ System.out.println(name\ +"\:\ w\u00E4hle\ ein\ Feld\ zum\ drehen(0-3)\:");\ \ \ \ \ \ \ \ //Abfrage\ welches\ Feld\ gedreht\ werden\ soll\r\n\ \ \ \ Scanner\ eingabewert\ \=\ new\ Scanner(System.in);\r\n\ \ \ \ eingabe\ \=\ eingabewert.nextInt();\ \r\n\ \ \ \ \r\n\ \ \ \ if\ (eingabe\ \=\=\ 0)\ {i\=0\ ;\ j\=0;}\ \r\n\ \ \ \ if\ (eingabe\ \=\=\ 1)\ {i\=0\ ;\ j\=3;}\ \r\n\ \ \ \ if\ (eingabe\ \=\=\ 2)\ {i\=3\ ;\ j\=0;}\ \r\n\ \ \ \ if\ (eingabe\ \=\=\ 3)\ {i\=3\ ;\ j\=3;}\ \r\n\ \ \ \ \r\n\ \ \ \ System.out.println(name\ +"\:\ Drehen\ nach\ rechts\ oder\ links?\ (1/0)\:");\ //Abfrage\ in\ welche\ Richtung\ es\ gedreht\ werden\ soll\r\n\ \ \ \ Scanner\ eingabewert2\ \=\ new\ Scanner(System.in);\r\n\ \ \ \ eingabe2\ \=\ eingabewert2.nextInt();\r\n\ \ \ \ \r\n\ \ \ \ //\ j\ \=\ zeilen;\ i\ \=\ spalten\ \r\n\ \ \ \ if(eingabe2\ \=\=\ 0)\ {\ \r\n\ \ \ \ sp.getSpielfeld()[i][j]\ \=\ x[i][j+2];\r\n\ \ \ \ sp.getSpielfeld()[i+1][j]\ \=\ x[i][j+1];\r\n\ \ \ \ sp.getSpielfeld()[i+2][j]\ \=\ x[i][j];\r\n\ \ \ \ sp.getSpielfeld()[i][j+1]\ \=\ x[i+1][j+2];\r\n\ \ \ \ sp.getSpielfeld()[i+2][j+1]\ \=\ x[i+1][j];\r\n\ \ \ \ sp.getSpielfeld()[i][j+2]\ \=\ x[i+2][j+2];\r\n\ \ \ \ sp.getSpielfeld()[i+1][j+2]\ \=\ x[i+2][j+1];\r\n\ \ \ \ sp.getSpielfeld()[i+2][j+2]\ \=\ x[i+2][j];\r\n\ \ \ \ }\r\n\ \ \ \r\n\ \ \ \ if\ (eingabe2\ \=\=\ 1)\ {\r\n\ \ \ \ sp.getSpielfeld()[i][j]\ \=\ x[i+2][j];\r\n\ \ \ \ sp.getSpielfeld()[i+1][j]\ \=\ x[i+2][j+1];\r\n\ \ \ \ sp.getSpielfeld()[i+2][j]\ \=\ x[i+2][j+2];\r\n\ \ \ \ sp.getSpielfeld()[i][j+1]\ \=\ x[i+1][j];\r\n\ \ \ \ sp.getSpielfeld()[i+2][j+1]\ \=\ x[i+1][j+2];\r\n\ \ \ \ sp.getSpielfeld()[i][j+2]\ \=\ x[i][j];\r\n\ \ \ \ sp.getSpielfeld()[i+1][j+2]\ \=\ x[i][j+1];\r\n\ \ \ \ sp.getSpielfeld()[i+2][j+2]\ \=\ x[i][j+2];\ \ \ \ \r\n\ \ \ \ }\r\n\ \ }\r\n
+comment9.params=feld\ drehrichtung
+comment9.target=void\ drehen(int,\ java.lang.String)
+numComments=10
