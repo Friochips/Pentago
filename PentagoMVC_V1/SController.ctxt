@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SController
+comment0.text=\r\n\ Title\:\ \ \ \ \ \ \ \ \ \ \ Controller\r\n\ Description\:\ \ \ \ \ Dies\ ist\ der\ Controller\ dieses\ Spiels.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Der\ Controller\ hat\ das\ Spiel\ und\ kennt\ die\ View.\r\n
+comment1.params=pView
+comment1.target=SController(View)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=3
