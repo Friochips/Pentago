@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Spiel
+comment1.params=x\ y
+comment1.target=void\ Press(int,\ int)
+comment2.params=Panel\ Richtung
+comment2.target=void\ Turn(int,\ int)
+comment3.params=Spieler
+comment3.target=boolean\ gewonnen(int)
+comment3.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ gewonnen\ hat.\r\n
+comment4.params=Spieler\ i\ j
+comment4.target=boolean\ horizontal(int,\ int,\ int)
+comment4.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ eine\ Reihe\ mit\ Kugeln\ in\ der\ Horizontalen\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment5.params=Spieler\ i\ j
+comment5.target=boolean\ vertikal(int,\ int,\ int)
+comment5.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ eine\ Reihe\ mit\ Kugeln\ in\ der\ Vertikalen\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment6.params=Spieler\ i\ j
+comment6.target=boolean\ schr\u00E4gRechtsOben(int,\ int,\ int)
+comment6.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ eine\ Reihe\ mit\ Kugeln\ von\ oben\ links\ nach\ unten\ rechts\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+comment7.params=Spieler\ i\ j
+comment7.target=boolean\ schr\u00E4gLinksOben(int,\ int,\ int)
+comment7.text=\r\n\ Hier\ wird\ \u00FCberpr\u00FCft\ ob\ ein\ Spieler\ eine\ Reihe\ mit\ Kugeln\ von\ oben\ rechts\ nach\ unten\ links\ erspielt\ hat,\ also\ gewonnen\ hat.\r\n
+numComments=8

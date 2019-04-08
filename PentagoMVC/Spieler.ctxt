@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Spieler
+comment1.params=spielfeld
+comment1.target=Spieler(Spielbrett)
+comment1.text=\r\n\ Zwischen\ dem\ Spieler\ und\ dem\ Spielfeld\ wird\ eine\ kennt-Beziehung\ realisiert.\r\n
+comment2.params=
+comment2.target=void\ spielerName()
+comment2.text=\r\n\ Dem\ Spieler\ wird\ mit\ Hilfe\ eines\ Scanners\ ein\ Name\ zugewiesen.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Der\ Name\ des\ Spielers\ wird\ zur\u00FCckgegeben.\r\n
+comment4.params=SpielerNr\ x\ y
+comment4.target=void\ setzeStein(int,\ int,\ int)
+comment4.text=\r\n\ Der\ Spieler\ kann\ eine\ Kugel\ setzen.\r\n
+comment5.params=SpielerNr\ Panel\ Richtung
+comment5.target=void\ drehen(int,\ int,\ int)
+comment5.text=\r\n\ Der\ Spieler\ kann\ ein\ Panel\ drehen.\r\n
+numComments=6

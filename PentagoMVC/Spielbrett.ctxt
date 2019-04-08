@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Spielbrett
+comment1.params=
+comment1.target=Spielbrett()
+comment1.text=\r\n\ Das\ Spielfeld\ wird\ mit\ Nullen\ bef\u00FCllt.\r\n
+comment2.params=
+comment2.target=int[][]\ getSpielfeld()
+comment2.text=\r\n\ Das\ Spielfeld\ wird\ zur\u00FCckgegeben.\r\n
+numComments=3
