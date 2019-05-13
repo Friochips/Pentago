@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Ki
+comment1.params=spielfeld\ schwierigkeit
+comment1.target=Ki(Spielbrett,\ int)
+comment2.params=
+comment2.target=void\ setzteStein()
+comment3.params=
+comment3.target=void\ Turn()
+numComments=4
