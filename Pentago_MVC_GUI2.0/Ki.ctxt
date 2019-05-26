@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Ki
+comment1.params=gameBoard
+comment1.target=Ki(GameBoard)
+comment2.params=
+comment2.target=void\ setStone()
+comment3.params=
+comment3.target=void\ Turn()
+numComments=4

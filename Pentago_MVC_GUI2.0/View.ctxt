@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=View
+comment0.text=\r\n\ Title\:\ \ \ \ \ \ \ \ View\r\n\ Description\:\ \ Ein\ GUI\ f\u00FCr\ die\ exitierenden\ Modell-Klassen.\ Die\ View\ hat\ den\ Kontroller.\r\n
+comment1.params=
+comment1.target=View()
+comment2.params=
+comment2.target=void\ toTurn()
+comment3.params=
+comment3.target=void\ toTurnDir()
+comment4.params=
+comment4.target=void\ toBoard()
+comment5.params=
+comment5.target=void\ toMenu()
+comment6.params=aktivePlayer
+comment6.target=void\ setAktivePlayer(int)
+numComments=7
