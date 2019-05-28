@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Starter
+comment0.text=\r\n\ Title\:\ \ \ \ \ \ \ \ Starter\r\n\ Description\:\ \ Diese\ Klasse\ dient\ zum\ Starten\ des\ gesamten\ Programms.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
