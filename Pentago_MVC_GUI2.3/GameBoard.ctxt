@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GameBoard
+comment1.params=
+comment1.target=GameBoard()
+comment1.text=\r\n\ Das\ Spielfeld\ wird\ mit\ Nullen\ bef\u00FCllt.\r\n
+comment2.params=a\ b\ c
+comment2.target=void\ setGameBoard(int,\ int,\ int)
+comment3.params=
+comment3.target=int[][]\ getGameBoard()
+comment3.text=\r\n\ Das\ Spielfeld\ wird\ zur\u00FCckgegeben.\r\n
+numComments=4
