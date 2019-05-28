@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=gameBoard
+comment1.target=Player(GameBoard)
+comment1.text=\r\n\ Zwischen\ dem\ Spieler\ und\ dem\ Spielfeld\ wird\ eine\ kennt-Beziehung\ realisiert.\r\n
+comment2.params=ki
+comment2.target=void\ setKi(boolean)
+comment3.params=
+comment3.target=boolean\ getKi()
+comment4.params=playerNr\ x\ y
+comment4.target=void\ setStone(int,\ int,\ int)
+comment4.text=\r\n\ Der\ Spieler\ kann\ eine\ Kugel\ setzen.\r\n
+comment5.params=
+comment5.target=void\ kizug()
+comment6.params=panel\ direction
+comment6.target=void\ turn(int,\ int)
+numComments=7
